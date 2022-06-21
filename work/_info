@@ -1,0 +1,289 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Documents/spring 1401/DLD/CA/ca05
+vadder
+Z0 !s110 1655797756
+!i10b 1
+!s100 eCc=H`lER_4_hdzNQgFR22
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJ[Z0@K78ieE?:fNHZMDJG2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD
+Z4 w1655789262
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v
+!i122 75
+L0 1 5
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1655797756.000000
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vcontroller
+R0
+!i10b 1
+!s100 Ez:H`=BH0W_bk:QPQ:L[O2
+R1
+IzEI;@NhRTQoo5>_^XbezP1
+R2
+R3
+w1655796755
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v
+!i122 76
+L0 1 80
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v|
+!i113 1
+R7
+R8
+vcosh_tb
+!s110 1655796774
+!i10b 1
+!s100 ]A0jXeKH5V4IGLSWibVgW3
+R1
+IhG;l6hNMMgcDY3h1BRNHP1
+R2
+R3
+w1655796561
+Z9 8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/testBench.v
+Z10 FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/testBench.v
+!i122 30
+L0 1 23
+R5
+r1
+!s85 0
+31
+!s108 1655796774.000000
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/testBench.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/testBench.v|
+!i113 1
+R7
+R8
+vcounter
+R0
+!i10b 1
+!s100 UQ1j^HaPSjWgWN`:a6=h<1
+R1
+Ij[4IfIh5lZTU^2<X:1>oA3
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v
+!i122 77
+Z12 L0 2 14
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v|
+!i113 1
+R7
+R8
+vdatapath
+R0
+!i10b 1
+!s100 ObP]da0nzL^3B4aBh2J_E3
+R1
+IZ[33?eF=e^2PZVc9b>]d22
+R2
+R3
+Z13 w1655796357
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v
+!i122 78
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v|
+!i113 1
+R7
+R8
+vexponential
+R0
+!i10b 1
+!s100 VG^NmFd3i=@`4UFHYMJzG1
+R1
+IR13V>moDGBG2J0THS2e2k2
+R2
+R3
+R13
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v
+!i122 79
+L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v|
+!i113 1
+R7
+R8
+vLUT
+R0
+!i10b 1
+!s100 JgVO?Lj==2bRMg4oCe6nH3
+R1
+IXm2idZ1SHJX:bO88E_mm02
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v
+!i122 80
+L0 1 16
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v|
+!i113 1
+R7
+R8
+n@l@u@t
+vmultiplier
+R0
+!i10b 1
+!s100 OLiLEPYa]L[;Zh@Me8Z9f1
+R1
+I@gRkP1<zY<_MNcE`oQ4TF0
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v
+!i122 81
+Z14 L0 2 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v|
+!i113 1
+R7
+R8
+vmux2to1
+R0
+!i10b 1
+!s100 FWhMI@:R3Tdk@:__`5[C<2
+R1
+IzBYRFJzh[knEX=7<df41a0
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v
+!i122 82
+R14
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v|
+!i113 1
+R7
+R8
+vregister
+Z15 !s110 1655797757
+!i10b 1
+!s100 7cl4m`oQk9Q7i<YFIboml2
+R1
+IM5cA]j6[4z6gUek`Pk<M_2
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v
+!i122 83
+R12
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v|
+!i113 1
+R7
+R8
+vregister18
+R15
+!i10b 1
+!s100 oAz243<D<a_lCnTHNlRjS2
+R1
+IRQPgCWoCR3^L2<D=mS?<z3
+R2
+R3
+R4
+8D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v
+FD:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v
+!i122 84
+R12
+R5
+r1
+!s85 0
+31
+Z16 !s108 1655797757.000000
+!s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v|
+!i113 1
+R7
+R8
+vtestBench
+R15
+!i10b 1
+!s100 ^aP3DVKYJ24R8lllEnjd@0
+R1
+Imh]fKYijzG1<ddgCYf0F21
+R2
+R3
+w1655797750
+R9
+R10
+!i122 85
+L0 2 24
+R5
+r1
+!s85 0
+31
+R16
+Z17 !s107 D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/testBench.v|
+R11
+!i113 1
+R7
+R8
+ntest@bench

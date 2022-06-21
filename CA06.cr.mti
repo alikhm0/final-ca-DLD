@@ -1,0 +1,71 @@
+{D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/mux2to1.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Counter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Controller.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/register18.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register18
+
+Top level modules:
+	register18
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/LUTExp.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LUT
+
+Top level modules:
+	LUT
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/multiplier.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplier
+
+Top level modules:
+	multiplier
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/exponential.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module exponential
+
+Top level modules:
+	exponential
+
+} {} {}} {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v} {1 {vlog -work work -stats=none {D:/Documents/spring 1401/DLD/CA/CA06/final-ca-DLD/Datapath.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}}

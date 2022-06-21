@@ -19,7 +19,7 @@ initial begin
     #10 start = 1'b1;
     #10 x_in = 16'h8000;
     #30 start = 1'b0;
-    //#200 start = 1'b1;
-    #500 $stop;
+    #200 start = 1'b1;
+    #400 $stop;
     end
 endmodule
