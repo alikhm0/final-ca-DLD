@@ -1,4 +1,5 @@
-module cosh_tb();
+`timescale 1ns/1ns
+module testBench();
 reg clk,rst,start;
 reg [15:0] x_in;
 wire done;
