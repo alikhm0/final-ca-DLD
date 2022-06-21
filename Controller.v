@@ -1,26 +1,29 @@
 module controller(input clk,rst,start,co,
 		    output reg done, zx,initx,ldx, zt,initt,ldt, zr,initr,ldr, zc,ldc,enc, s0 , s1);
 
-	reg [2:0] ps, ns;
-	parameter [2:0]
-	Idle = 0, Initialization = 1, Begin = 2, Mult1 = 3, Mult2 = 4, Add=5, setdone=6;
+	reg [3:0] ps, ns;
+	parameter [3:0]
+	Idle = 0, Initialization = 1, Begin = 2, Mult1 = 3, Mult2 = 4, Mult3 = 5 , Mult4 = 6 , Add=7;
 	always@(ps,co,start)begin
 		ns = Idle;
 		case(ps)
 			Idle:
 				ns = (start)? Initialization : Idle;
 			Initialization:
-				ns = Begin;
+				ns = (start)?  Initialization : Begin;
 			Begin:
 				ns = Mult1;
 			Mult1:
 				ns = Mult2;
 			Mult2:
+				ns = Mult3;
+			Mult3:
+				ns = Mult4;
+			Mult4:
 				ns = Add;
 			Add:
-				ns = (co)? setdone : Mult1;
-			setdone: 
-				ns = Idle;
+				ns = (co)? Idle : Mult1;
+			
 		endcase
 	end
 
@@ -31,7 +34,7 @@ module controller(input clk,rst,start,co,
 			Idle:begin
 				zx = 1'b1;
 				zt = 1'b1;
-				//zr = 1'b1;
+				zr = 1'b1;
 				zc = 1'b1;
 			end
 			Initialization: begin
@@ -42,21 +45,27 @@ module controller(input clk,rst,start,co,
 				initt = 1'b1;
 			end
 			Mult1:begin
-				s = 1'b0;
+				// s = 1'b0;
 				ldt = 1'b1;
 			end
 			Mult2:begin
-				s = 1'b1;
+				// s = 1'b0;
 				ldt = 1'b1;
 			end
+			Mult3:begin
+				s = 1'b1;
+				ldt = 1'b1;
+				enc = 1'b1;
+			end
+			Mult4:begin
+				s = 1'b1;
+				ldt = 1'b1;
+				enc = 1'b1;				
+			end
 			Add:begin
-				enc =1'b1;
 				ldr = 1'b1;
 			end
-			
-			setdone:begin
-				done = 1'b1;
-			end
+
 			
 			
 		endcase
