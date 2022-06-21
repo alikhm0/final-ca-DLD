@@ -4,7 +4,7 @@ reg [15:0] x_in;
 wire done;
 wire [1:0] intpart;
 wire [15:0] fracpart;
-exponential cosh(.clk(clk), .rst(rst), .start(start), .done(done), .x_in(x_in), .result({intpart,fracpart}));
+exponential cosh(.clk(clk), .rst(rst), .start(start), .done(done), .x(x_in), .intpart(intpart) , .fracpart(fracpart));
 initial begin
     rst = 1'b1;
     clk = 1'b0;
