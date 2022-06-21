@@ -6,6 +6,7 @@ module datapath(input clk,rst, zx,initx,ldx, zt,initt,ldt, zr,initr,ldr, zc,ldc,
 	wire [15:0] xptwor,temp_out,xr;
 	wire [17:0] res_in;
 	wire [3:0] adr;
+	wire ali;
 
 	register regx(clk,rst,zx,initx,ldx,x,xr);
 
